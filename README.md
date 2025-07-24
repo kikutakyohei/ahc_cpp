@@ -3,6 +3,8 @@
 AtCoder Heuristic Contest (AHC) 向けの C++ + AtCoder Library + pahcer 開発環境を Docker で再現します。  
 VS Code Dev Containers / Docker Compose でそのまま使えます。
 
+あとでoptunaとかも入れたいですね
+
 ---
 
 ## 特徴
@@ -37,3 +39,5 @@ docker compose -f .devcontainer/docker-compose.yml run --rm dev bash
 ### 3. pahcerの設定
 詳細はpahcerのREADMEを参照してください。
 (https://github.com/terry-u16/pahcer/blob/main/README.md)
+
+

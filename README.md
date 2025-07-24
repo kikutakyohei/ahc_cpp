@@ -3,17 +3,17 @@ pahcer、atcoder libraryを備えたc++環境構築のためのDockerコンテ�
 
 こんな感じのディレクトリ構成を想定しています
 
-└── ahc_cpp/
-    ├── .devcontainer/
+└── ahc_cpp
+    ├── .devcontainer
     │   ├── Dockerfile
     │   └── docker-compose.yml
     └── work
-        └── ahc000/
+        └── ahc000
             ├── main.py
             ├── pahcer_config.toml
-            ├── pacher/
+            ├── pacher
             │   └── summary.mdなどテスト結果
-            └── tools/
+            └── tools
                 ├── src
                 └── in
 

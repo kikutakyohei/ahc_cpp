@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  dev:
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    volumes:
+      - ../work:/work
+    tty: true          # 対話用に端末を確保
+    stdin_open: true   # Ctrl+D まで標準入力を開いたままに

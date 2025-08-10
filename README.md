@@ -4,6 +4,15 @@ AtCoder Heuristic Contest (AHC) 向けの C++ + AtCoder Library + pahcer 開発�
 Pythonも使えます。
 VS Code Dev Containers / Docker Compose でそのまま使えます。
 
+AHCのページからtoolsをダウンロードし、以下のようなディレクトリ構成で使用してください。（pahcer参照）
+```bash
+ahc000       (プロジェクトルート)
+├ main.cpp   (解答プログラムのコード)
+└ tools      (AtCoder提供の公式ローカルテストツール)
+  ├ src
+  └ in
+```
+
 あとでoptunaとかも入れたいですね
 
 ---

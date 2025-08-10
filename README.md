@@ -6,7 +6,7 @@ VS Code Dev Containers / Docker Compose でそのまま使えます。
 
 AHCのページからtoolsをダウンロードし、以下のようなディレクトリ構成で使用してください。（pahcer参照）
 ```bash
-ahc000       (プロジェクトルート)
+workspace       (プロジェクトルート)
 ├ main.cpp   (解答プログラムのコード)
 └ tools      (AtCoder提供の公式ローカルテストツール)
   ├ src

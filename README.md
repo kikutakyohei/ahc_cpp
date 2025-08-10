@@ -47,6 +47,9 @@ docker compose -f .devcontainer/docker-compose.yml run --rm dev bash
 ```
 
 ### 3. pahcerの設定
+```bash
+pahcer init -p ahc000 -o max -l cpp [-i]
+```
 詳細はpahcerのREADMEを参照してください。
 (https://github.com/terry-u16/pahcer/blob/main/README.md)
 
